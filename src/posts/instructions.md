@@ -41,7 +41,7 @@ values:
   --color-link: hsl(220, 30%, 10%);
   --color-link-hover: hsl(220, 30%, 40%);
   --color-line: hsl(220, 30%, 90%);
-  --color-background: hsl(220, 30%, 100%);
+  --color-: hsl(220, 30%, 100%);
 
   /* Fonts */
   --font-family-code: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
@@ -72,7 +72,7 @@ values:
     --color-link: hsl(220, 20%, 100%);
     --color-link-hover: hsl(220, 20%, 70%);
     --color-line: hsl(220, 20%, 20%);
-    --color-background: hsl(220, 20%, 10%);
+    --color-: hsl(220, 20%, 10%);
   }
 }
 ```

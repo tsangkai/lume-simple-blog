@@ -13,6 +13,7 @@ export default function* ({ search }) {
   }
 
   // Generate a page for each author
+  /*
   for (const author of search.values("author")) {
     yield {
       url: `/author/${author}/`,
@@ -22,4 +23,5 @@ export default function* ({ search }) {
       author,
     };
   }
+  */
 }

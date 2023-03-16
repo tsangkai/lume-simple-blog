@@ -1,0 +1,16 @@
+
+.badge {
+    border: 1px solid var(--color-line);
+    border-radius: 4px;
+    color: var(--color-dim);
+    display: inline-block;
+    padding: .2em .6em;
+    text-decoration: none
+  }
+  
+  .badge:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-color: var(--color-background)
+  }
+  

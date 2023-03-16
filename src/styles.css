@@ -2,6 +2,7 @@
 @import "css/ds.css";
 
 /* Custom components */
+@import "css/badge.css";
 @import "css/navbar.css";
 @import "css/page.css";
 @import "css/post-list.css";
@@ -10,7 +11,8 @@
 /* Make the links black */
 :root {
   --color-link: var(--color-base);
-  --color-link-hover: var(--color-dim);
+  --color-link-hover: var(--color-primary);
+  --font-body: clamp(1rem, 1vw, 1.1rem)/1.7 var(--font-family-ui);
 }
 
 /* Page layout */
@@ -28,3 +30,47 @@ main {
 .search {
   margin-top: var(--row-gap-xsmall);
 }
+
+
+.pagination a {
+  color: var(--color-dim);
+  display: block;
+  text-decoration: none
+}
+
+.pagination strong {
+  color: var(--color-base);
+  display: block;
+  text-decoration: underline
+}
+
+.pagination a:hover {
+  color: var(--color-dim);
+  text-decoration: none
+}
+
+.pagination a:hover strong {
+  color: var(--color-primary);
+  text-decoration: none
+}
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  justify-content: center;
+
+  padding: 1rem 0;
+  max-width: min(100% - 15vw, 45em);
+  margin: 0rem auto 12rem;  
+
+  & p {
+    margin: 0;
+    align-items: center;
+    font: var(--font-small);
+    color: var(--color-dim);
+  }  
+}
+

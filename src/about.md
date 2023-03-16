@@ -1,9 +1,9 @@
 ---
 layout: layouts/page.njk
-title: About Me
+title: About
 menu:
   visible: true
-  order: 2
+  order: 1
 ---
 
 This is an example of an about me page.
