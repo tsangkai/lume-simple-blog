@@ -2,6 +2,7 @@
 @import "css/ds.css";
 
 /* Custom components */
+@import "css/badge.css";
 @import "css/navbar.css";
 @import "css/page.css";
 @import "css/post-list.css";
@@ -10,7 +11,12 @@
 /* Make the links black */
 :root {
   --color-link: var(--color-base);
-  --color-link-hover: var(--color-dim);
+  --color-background: #f3f4f7;
+  --color-line: #e0e4eb;
+  --color-link: var(--color-base);
+  --color-link-hover: var(--color-primary);
+  --font-body: clamp(1rem, 1vw, 1.1rem)/1.7 var(--font-family-ui);
+  --font-display: bold clamp(2rem, 10vw, 2.8rem)/1.2 var(--font-family-ui);
 }
 
 /* Page layout */
@@ -27,4 +33,79 @@ main {
 /* Search tweak */
 .search {
   margin-top: var(--row-gap-xsmall);
+}
+
+
+.pagination a {
+  color: var(--color-dim);
+  display: block;
+  text-decoration: none
+}
+
+.pagination strong {
+  color: var(--color-base);
+  display: block;
+  text-decoration: underline
+}
+
+.pagination a:hover {
+  color: var(--color-dim);
+  text-decoration: none
+}
+
+.pagination a:hover strong {
+  color: var(--color-primary);
+  text-decoration: none
+}
+
+
+.footer {
+  border-top: 1px solid var(--color-line);
+
+  display: grid;
+  row-gap: 0.1rem;
+  justify-content: center;
+
+  padding: 2rem 0;
+  max-width: min(100% - 15vw, 45em);
+  margin: 0rem auto 8rem;  
+
+  & p {
+    margin: 0;
+    align-items: center;
+    font: var(--font-small);
+    color: var(--color-dim);
+  }  
+}
+
+/* Override dark scheme */
+@media (prefers-color-scheme:dark) {
+  :root {
+    --color-base: #14181f;
+    --color-text: #29303d;
+    --color-dim: #525f7a;
+    --color-highlight: #f3f4f7;
+    --color-primary: #bf4040;
+    --color-primary-highlight: #933;
+    --code-text: var(--color-base);
+    --code-comment: #708090;
+    --code-token-1: #91084d;
+    --code-token-2: #913608;
+    --code-token-3: #086891;
+    --code-token-4: #369108;
+    --code-inserted: #639108;
+    --code-deleted: #910853;
+    --code-border: var(--color-line);
+    --code-background: var(--color-highlight);
+    --code-background-selection: #b3d4fc;
+    color-scheme: dark
+  }
+}
+
+.body h2 {
+  border-bottom: 0px var(--color-line)
+}
+
+::selection {
+  background: var(--color-line);
 }

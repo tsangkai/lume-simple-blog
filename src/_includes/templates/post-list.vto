@@ -1,18 +1,28 @@
-<ul class="postList">
+<section class="postList">
   {{ for post of postslist }}
-  <li class="post">
-    <h2 class="post-title">
-      <a href="{{ post.data.url }}" {{ if post.data.url == url }} aria-current="page"{{ /if }}>
-        {{ post.data.title || post.data.url }}
-      </a>
-    </h2>
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title">
+        <a href="{{ post.data.url }}" {{ if post.data.url == url }} aria-current="page"{{ /if }}>
+          {{ post.data.title || post.data.url }}
+        </a>
+      </h2>
 
-    {{ include "templates/post-details.vto" {
-      date: post.data.date,
-      tags: post.data.tags,
-      author: post.data.author,
-      readingTime: post.data.readingTime
-    } }}
-  </li>
-  {{ /for }}
-</ul>
+      {{ include "templates/post-details.vto" {
+        date: post.data.date,
+        tags: post.data.tags,
+        author: post.data.author,
+        readingTime: post.data.readingTime
+        } }}
+    </header>
+
+    <div class="post-excerpt body">
+      {{ post.data.excerpt |> md }}
+    </div>
+
+    <a href="{{ post.data.url }}" class="post-link">
+      {{ i18n.nav.continue_reading }}
+    </a>
+  </article>
+{{ /for }}
+</section>

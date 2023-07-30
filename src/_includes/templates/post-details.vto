@@ -9,13 +9,11 @@
   {{ /if }}
 
   <p>
-    <time datetime="{{ date |> date('DATETIME') }}">
-      {{ date |> date('HUMAN_DATE') }}
+    <time datetime="{{ date |> date('DATE') }}">
+      {{ date |> date('DATE') }}
     </time>
   </p>
-
-  <p>{{ readingTime.minutes }} {{ i18n.post.reading_time}}</p>
-
+  
   <div class="post-tagsss">
     {{ for tag of tags }}
       {{ set page = search.page(`type=tag tag="${tag}"`) }}
