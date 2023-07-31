@@ -31,7 +31,7 @@
   }
 
   & p:nth-child(-n+2)::after {
-    content: "•";
+    content: "\2022";
     padding-left: .5em;
     align-self: stretch;
   }
