@@ -46,3 +46,21 @@
 .post-link {
   display: inline-block;
 }
+
+.footnote {
+
+  margin-top: var(--row-gap-small);
+
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    flex-wrap: wrap;
+    gap: .3em;
+
+
+    font: var(--font-small);
+    color: var(--color-dim);
+  }  
+}

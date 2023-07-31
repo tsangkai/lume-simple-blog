@@ -35,6 +35,20 @@ bodyClass: body-post
   <div class="post-body body">
     {{ content }}
   </div>
+
+  {{- if footnotes.length }}
+  <div class="post-body footnote">
+    <h3>Footnotes</h3>
+    <ul>
+      {{ for note of footnotes }}
+      <li id={{ note.label }}>
+        {{- note.label -}}. {{note.content |> replace('<p>', '') |> replace('</p>', '') }}
+      </li>
+      {{ /for }}
+    </ul>  
+  </div>
+  {{ /if }}
+
 </article>
 
 <nav class="page-pagination pagination">
