@@ -5,32 +5,7 @@ title: Home
 ---
 
 <section class="postList">
-  {{ for post of search.pages("type=post", "date=desc", 3) }}
-  <article class="post">
-    <header class="post-header">
-      <h2 class="post-title">
-        <a href="{{ post.data.url }}" {{ if post.data.url == url }} aria-current="page"{{ /if }}>
-          {{ post.data.title || post.data.url }}
-        </a>
-      </h2>
-
-      {{ include "templates/post-details.vto" {
-        date: post.data.date,
-        tags: post.data.tags,
-        author: post.data.author,
-        readingTime: post.data.readingTime
-        } }}
-    </header>
-
-    <div class="post-excerpt body">
-      {{ post.data.excerpt |> md }}
-    </div>
-
-    <a href="{{ post.data.url }}" class="post-link">
-      {{ i18n.nav.continue_reading }}
-    </a>
-  </article>
-{{ /for }}
+{{ include "templates/post-list.vto" { postslist: search.pages("type=post", "date=desc", 5) } }}
 </section>
 
 <hr>

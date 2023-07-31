@@ -5,6 +5,7 @@ date: 2023-07-25
 author: Tsang-Kai Chang
 tags:
   - literature
+img: https://images-us.bookshop.org/ingram/9780143134220.jpg
 ---
 
 這本書是去年在 Aesop 的 Queer Library 免費拿的，拖了一年才翻開來讀。一翻開才知道這本書從完稿到出版花了超過八十年，到 2020 年才第一次出版。會被選進 Queer Library，當然書中有些角色跳脫傳統性別框架，但性別並非這部小說的主軸。這部小說平實的呈現了在馬賽港口區各種不同族裔背景，不同性別組合，不同身體條件的人們所發生的激情故事。

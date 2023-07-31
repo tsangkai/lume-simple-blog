@@ -1,5 +1,14 @@
 .post-header {
   margin-bottom: var(--row-gap-small);
+
+  & img {
+    height: 360px;
+    width: 240px;
+    object-fit: fill;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    background-color: var(--color-background);
+  }
 }
 
 .post-title {
