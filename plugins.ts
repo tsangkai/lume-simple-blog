@@ -54,6 +54,7 @@ export default function (options: Options = {}) {
       }))
       .copy("fonts")
       .copy("favicon.png")
+      .copy("image")
       .preprocess([".md"], (page: Page) => {
         page.data.excerpt ??= (page.data.content as string).split(
           /<!--\s*more\s*-->/i,

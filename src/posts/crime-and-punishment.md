@@ -4,14 +4,14 @@ date: 2023-06-23
 author: Tsang-Kai Chang
 tags:
   - literature
-img: https://images-us.bookshop.org/ingram/9781631495311.jpg
+img: /image/crime-and-punishment.jpg
 ---
 
 故事發生在 1860 年代的聖彼得堡。二十歲出頭的主角 Rodya 計畫殺掉壓榨窮人的典當商婦人，殺人之後，他卻陷入道德矛盾與心理煎熬。第一次看這本小說時，150 多年前的謀殺與逃匿情節現在讀起來依然刺激。重看的時候，才漸漸讀出 Rodya 的心理發展，以及最後的救贖。我讀的這個譯本，前面有一篇簡介，對於理解小說的時代背景頗有幫助。
 
 <!--more-->
 
-![19 世紀聖彼得堡地圖](https://upload.wikimedia.org/wikipedia/commons/a/a5/345_of_%27Petersburg_in_Bildern_und_Skizzen%27_%2811018816536%29.jpg)
+![19 世紀聖彼得堡地圖 (from Wiki)](/image/st-petersburg-map.jpg)
 
 小說最大的懸念應該就是 Rodya 的殺人動機。大學時唸法律還能發表社會議論文章的 Rodya 並非衝動或隨機殺人，而是有強烈理由支持這個殘酷的行動。我們可以在小說後半，Rodya 對 Sonya 的自白裡，看到這些理由如何成立又被推翻。理由有經濟因素，殺完人後所得的財物可以讓 Rodya 擺脫貧困，但他又馬上否定，坦承自己其實仍有其他賺錢的方法。或是他崇拜拿破崙，想成為歷史上的「英雄」，而成就偉大功業之前多少會對社會造成一些犧牲。這個論點合理化他在計畫之外，為何殺掉典當商婦人妹妹 Lizaveta。只是如果這些理由成立，Rodya 理應在殺人後感到平靜或滿足，但他卻陷入強烈的混亂與矛盾中。這些理性的原因，並沒有帶他繞過良知，也沒有讓他成為英雄。書中用「太年輕、太哲學、因此太殘忍」形容 Rodya 第一次去找 Sonya 時的態度，或許正精確描述了 Rodya 殺人的心理機制。
 
@@ -19,7 +19,7 @@ img: https://images-us.bookshop.org/ingram/9781631495311.jpg
 
 當然親情與愛情讓封閉自己已久的 Rodya 重新與人產生連結，有了活下去的意義，但 Rodya 的救贖也有宗教性的味道。Rodya 第一次去找 Sonya 的時候，屏棄上帝的他雖然起初有點看不起虔誠的 Sonya，但他們最後一起讀了 Lazarus 重生的聖經章節。如果連去世的 Lazarus 都能復活，那一個殺人犯與一個娼妓，就能對未來抱有希望。最後 Rodya 也帶著一本聖經到西伯利亞。而這本聖經正來自被他無辜殺掉的 Lizaveta。當初他最看不起的，可以輕易消滅的，最後卻依伴著他繼續活下去。
 
-![Madonna del Granduca](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Madona_del_gran_duque%2C_por_Rafael.jpg/326px-Madona_del_gran_duque%2C_por_Rafael.jpg)
+![Madonna del Granduca](/image/madona.jpg)
 
 
 除了謀殺以及逃匿外，小說中 Rodya 還要阻止妹妹 Dunya 為了改善家裡經濟而訂下的婚事。Dunya 的未婚夫 Luzhin 靠著自身力量擺脫貧困，因而讓他更為自戀，甚至期待他人也同樣迷戀自己。經濟無虞後，Luzhin 想要找一個貧困的女子當妻子，這樣在婚姻中 Luzhin 就能壟斷所有關注，扮演救世主。當然哥哥 Rodya 不願意妹妹委身於這樣的婚姻中，極力地阻止這段婚事。

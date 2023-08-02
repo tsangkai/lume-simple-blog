@@ -4,7 +4,7 @@ date: 2023-03-24
 author: Tsang-Kai Chang
 tags:
   - exodus
-img: https://images-us.bookshop.org/ingram/9780813206462.jpg
+img: /image/the-intellectual-life.jpg
 ---
 
 一百多年前的道明會修士以神學家阿奎那的訓誡為基礎，把建立「知識人生」的指南寫成這本小書。從內在的品德心態，生活的建立，到如何記憶、如何做筆記書中都有手把手的討論與建議。看完之後，我覺得比起知識從業者如研究者或修士，一般人更能從這本書找到切身的鼓勵與建議。
