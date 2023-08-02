@@ -5,7 +5,7 @@
   row-gap: 1rem;
   justify-content: space-between;
 
-  padding: 5rem 0;
+  padding: var(--row-gap-medium) 0 var(--row-gap-xsmall);
   max-width: min(100% - 15vw, 45em);
   margin: 0 auto;  
 }
