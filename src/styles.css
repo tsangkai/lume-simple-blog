@@ -109,3 +109,8 @@ main {
 ::selection {
   background: var(--color-line);
 }
+
+
+hr{
+  margin: var(--row-gap-small);
+}
