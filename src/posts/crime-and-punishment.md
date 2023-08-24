@@ -19,7 +19,7 @@ img: /image/crime-and-punishment.jpg
 
 當然親情與愛情讓封閉自己已久的 Rodya 重新與人產生連結，有了活下去的意義，但 Rodya 的救贖也有宗教性的味道。Rodya 第一次去找 Sonya 的時候，屏棄上帝的他雖然起初有點看不起虔誠的 Sonya，但他們最後一起讀了 Lazarus 重生的聖經章節。如果連去世的 Lazarus 都能復活，那一個殺人犯與一個娼妓，就能對未來抱有希望。最後 Rodya 也帶著一本聖經到西伯利亞。而這本聖經正來自被他無辜殺掉的 Lizaveta。當初他最看不起的，可以輕易消滅的，最後卻依伴著他繼續活下去。
 
-![Madonna del Granduca](/image/madona.jpg)
+![Madonna del Granduca (from Wiki)](/image/madona.jpg)
 
 
 除了謀殺以及逃匿外，小說中 Rodya 還要阻止妹妹 Dunya 為了改善家裡經濟而訂下的婚事。Dunya 的未婚夫 Luzhin 靠著自身力量擺脫貧困，因而讓他更為自戀，甚至期待他人也同樣迷戀自己。經濟無虞後，Luzhin 想要找一個貧困的女子當妻子，這樣在婚姻中 Luzhin 就能壟斷所有關注，扮演救世主。當然哥哥 Rodya 不願意妹妹委身於這樣的婚姻中，極力地阻止這段婚事。

@@ -114,3 +114,13 @@ main {
 hr{
   margin: var(--row-gap-small);
 }
+
+figure {
+  margin: 0px;
+  margin-right: 25%;
+}
+
+figcaption {
+  font: var(--font-small);
+  color: var(--color-dim);
+}
