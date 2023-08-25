@@ -2,11 +2,11 @@
   margin-bottom: var(--row-gap-small);
 
   & img {
-    height: 360px;
-    width: 240px;
+    height: 270px;
+    width: 180px;
     object-fit: fill;
-    border-radius: 20px;
-    margin-bottom: 0.8rem;
+    border-radius: 15px;
+    margin-bottom: 0.4rem;
     background-color: var(--color-background);
   }
 }

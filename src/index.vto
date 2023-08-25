@@ -4,10 +4,6 @@ bodyClass: body-home
 title: Home
 ---
 
-<p>Welcome!</p>
-
-<hr>
-
 <section class="postList">
 {{ include "templates/post-list.vto" { postslist: search.pages("type=post", "date=desc", 5) } }}
 </section>
