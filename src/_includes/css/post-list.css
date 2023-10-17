@@ -19,6 +19,12 @@
   grid-template-columns: 1fr 3fr;
 }
 
+@media screen and (max-width: 54em) {
+  .post-list .post-card {
+    grid-template-columns: 1fr;
+  }
+}
+
 .post-list .post-card .post-card-summary {
   display: grid;
   grid-auto-columns: 1fr;

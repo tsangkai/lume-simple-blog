@@ -4,11 +4,12 @@ bodyClass: body-post
 ---
 <article class="post" data-pagefind-body data-title="{{ title }}" data-pagefind-index-attrs="data-title">
   <header class="post-header">
-      {{ if it.img }}
-          <img src="{{ it.img }}">
-      {{ /if }}
 
     <h1 class="post-title">{{ title }}</h1>
+    
+    <div class="post-header-img">
+      <img src="{{ it.img }}">
+    </div>
 
     {{ include "templates/post-details.vto" }}
   </header>
