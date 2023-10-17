@@ -24,6 +24,10 @@
   & [aria-current="page"] {
     text-decoration: none;
   }
+
+  & a {
+    text-decoration: none;
+  }
 }
 
 .navbar-search {

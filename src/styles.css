@@ -20,7 +20,7 @@
 }
 
 /* Page layout */
-main {
+ main {
   padding: var(--row-gap-small) 0;
   max-width: min(100% - 15vw, 45em);
   margin: 0 auto;
@@ -104,6 +104,10 @@ main {
 
 .body h2 {
   border-bottom: 0px var(--color-line)
+}
+
+.body a {
+  color: var(--color-text);
 }
 
 ::selection {
