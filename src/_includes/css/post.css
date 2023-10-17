@@ -33,10 +33,6 @@
   & p {
     margin: 0;
   }
-
-  & a {
-    color: inherit;
-  }  
 }
 
 .bar {
@@ -57,30 +53,14 @@
   display: inline-block;
 }
 
-.pagination {
-  font: var(--font-ui);
-  border-top: solid 1px var(--color-line);
-  margin-top: var(--row-gap-medium);
+figure {
+  margin: 0px;
+  max-width: min(100%, 35em);
 }
 
-.pagination a {
+figcaption {
+  font: var(--font-small);
   color: var(--color-dim);
-  display: block;
-}
-
-.pagination strong {
-  color: var(--color-base);
-  display: block;
-}
-
-.pagination a:hover {
-  color: var(--color-dim);
-  text-decoration: none;
-}
-
-.pagination a:hover strong {
-  color: var(--color-primary);
-  text-decoration: none;
 }
 
 .footnote {
@@ -99,19 +79,3 @@
   }  
 }
 
-.footer {
-  display: grid;
-  gap: 0.1rem;
-  justify-content: center;
-
-  padding: 2rem 0;
-  max-width: min(100% - 15vw, 45em);
-  margin: 0rem auto 8rem;  
-
-  & p {
-    margin: 0;
-    align-items: center;
-    font: var(--font-small);
-    color: var(--color-dim);
-  }  
-}

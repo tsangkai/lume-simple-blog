@@ -8,7 +8,7 @@
   font: var(--font-title);
   letter-spacing: var(--font-title-spacing);
 
-  & a {
+  a {
     text-decoration: none;
   }
 }
@@ -26,24 +26,30 @@
 }
 
 .post-list .post-card .post-card-img{
-  text-align: right;
+  text-align: start;
 
   img {
-    height: 270px;
-    width: 180px;
+    aspect-ratio: 180 / 270;
+    max-width: 100%;
     object-fit: fill;
     border-radius: 15px;
-    margin-bottom: 0.4rem;
     background-color: var(--color-background);
   }
 }
 
 @media screen and (max-width: 54em) {
   .post-list .post-card {
+    gap: 1rem;
     grid-template-columns: 1fr;
   }
 
   .post-list .post-card .post-card-img{
     text-align: center;
+  
+    img {
+      aspect-ratio: 180 / 270;
+      width: 180px;
+    }
   }
+
 }

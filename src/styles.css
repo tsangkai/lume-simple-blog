@@ -21,17 +21,54 @@
 
 body {
   font-size: 1.125rem;
+  letter-spacing: var(--font-body-spacing);
+}
+
+.body a {
+  color: var(--color-text);
+}
+
+.body a:hover {
+  color: var(--color-primary);
+}
+
+.container {
+  max-width: min(100% - 15vw, 40em);
+  margin: 0 auto;
 }
 
 /* Page layout */
- main {
-  padding: var(--row-gap-small) 0;
-  max-width: min(100% - 15vw, 45em);
-  margin: 0 auto;
+main {
+  margin: var(--row-gap-medium) 0;
+  width: 100%;
 
   & > :first-child {
     margin-top: 0;
   }
+
+  hr{
+    margin: var(--row-gap-small);
+  }
+
+  p {
+    font: var(--font-body);
+  }
+}
+
+.footer {
+  display: grid;
+  gap: 0.1rem;
+  justify-content: center;
+
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 8rem;  
+
+  & p {
+    margin: 0;
+    font: var(--font-small);
+    color: var(--color-dim);
+  }  
 }
 
 /* Search tweak */
@@ -63,32 +100,6 @@ body {
   }
 }
 
-.body h2 {
-  border-bottom: 0px var(--color-line)
-}
-
-.body a {
-  color: var(--color-text);
-}
-
 ::selection {
   background: var(--color-line);
-}
-
-hr{
-  margin: var(--row-gap-small);
-}
-
-figure {
-  margin: 0px;
-  max-width: min(100%, 35em);
-}
-
-figcaption {
-  font: var(--font-small);
-  color: var(--color-dim);
-}
-
-.body-home-p {
-  font: var(--font-body);
 }

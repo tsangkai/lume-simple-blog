@@ -4,7 +4,10 @@
   color: var(--color-dim);
   display: inline-block;
   padding: .2em .6em;
-  text-decoration: none
+  text-decoration: none;
+
+  letter-spacing: normal;
+
 }
 
 .badge:hover {
