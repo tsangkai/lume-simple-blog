@@ -15,6 +15,7 @@
 
 .page-navigation {
   margin-bottom: var(--row-gap-medium);
+  font: var(--font-small);
 
   & ul {
     list-style: none;
@@ -30,9 +31,4 @@
     letter-spacing: var(--font-body-spacing);
     margin: .5em 0;
   }
-}
-
-.page-pagination {
-  border-top: solid 1px var(--color-line);
-  margin-top: var(--row-gap-medium);
 }

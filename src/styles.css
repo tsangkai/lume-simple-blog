@@ -19,6 +19,10 @@
   --font-display: bold clamp(2rem, 10vw, 2.8rem)/1.2 var(--font-family-ui);
 }
 
+body {
+  font-size: 1.125rem;
+}
+
 /* Page layout */
  main {
   padding: var(--row-gap-small) 0;
@@ -33,49 +37,6 @@
 /* Search tweak */
 .search {
   margin-top: var(--row-gap-xsmall);
-}
-
-
-.pagination a {
-  color: var(--color-dim);
-  display: block;
-  text-decoration: none
-}
-
-.pagination strong {
-  color: var(--color-base);
-  display: block;
-  text-decoration: underline
-}
-
-.pagination a:hover {
-  color: var(--color-dim);
-  text-decoration: none
-}
-
-.pagination a:hover strong {
-  color: var(--color-primary);
-  text-decoration: none
-}
-
-
-.footer {
-  border-top: 1px solid var(--color-line);
-
-  display: grid;
-  row-gap: 0.1rem;
-  justify-content: center;
-
-  padding: 2rem 0;
-  max-width: min(100% - 15vw, 45em);
-  margin: 0rem auto 8rem;  
-
-  & p {
-    margin: 0;
-    align-items: center;
-    font: var(--font-small);
-    color: var(--color-dim);
-  }  
 }
 
 /* Override dark scheme */
@@ -114,7 +75,6 @@
   background: var(--color-line);
 }
 
-
 hr{
   margin: var(--row-gap-small);
 }
@@ -127,4 +87,8 @@ figure {
 figcaption {
   font: var(--font-small);
   color: var(--color-dim);
+}
+
+.body-home-p {
+  font: var(--font-body);
 }
