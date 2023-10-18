@@ -14,7 +14,7 @@
   text-align: center;
 
   img {
-    width: 18vw;
+    width: max(18vw, 180px);
   }
 }
 

@@ -13,7 +13,7 @@
   }
 }
 
-.post-list .post-card {
+.post-card {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 3fr;
@@ -23,7 +23,11 @@
   }
 }
 
-.post-list .post-card .post-card-summary {
+.post-card-img {
+  text-align: center;
+}
+
+.post-card-summary {
   display: grid;
   grid-auto-columns: 1fr;
   gap: 0.5rem;
@@ -31,16 +35,14 @@
 
 
 @media screen and (max-width: 54em) {
-  .post-list .post-card {
+  .post-card {
     gap: 1rem;
     grid-template-columns: 1fr;
   }
 
-  .post-list .post-card {
-    text-align: center;
-  
+  .post-card-img {
     img {
-      width: 180px;
+      width: max(18vw, 180px);
     }
   }
 
