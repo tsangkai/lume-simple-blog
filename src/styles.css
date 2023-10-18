@@ -24,14 +24,9 @@ body {
   letter-spacing: var(--font-body-spacing);
 }
 
-/* .body vs body??? */
-.body a {  
-  color: var(--color-text);
-}
 
-.body a:hover {
-  color: var(--color-primary);
-}
+/* .body vs body??? */
+
 
 .container {
   max-width: min(100% - 15vw, 40em);

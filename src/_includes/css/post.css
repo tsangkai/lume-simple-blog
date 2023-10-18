@@ -49,6 +49,16 @@
   display: inline-block;
 }
 
+.post-article a {  
+  color: var(--color-text);
+  font: var(--font-body);
+}
+
+.post-article a:hover {
+  color: var(--color-primary);
+  font: var(--font-body);
+}
+
 figure {
   margin: 0px;
   max-width: min(100%, 35em);
