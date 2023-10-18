@@ -13,12 +13,8 @@
 .post-header-img {
   text-align: center;
 
-  & img {
-    height: 360px;
-    width: 240px;
-    object-fit: fill;
-    border-radius: 15px;
-    background-color: var(--color-background);
+  img {
+    width: 18vw;
   }
 }
 
@@ -67,10 +63,10 @@ figcaption {
   margin-top: var(--row-gap-small);
 
   & ul {
+    display: grid;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
     flex-wrap: wrap;
     gap: .3em;
 
