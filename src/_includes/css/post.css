@@ -67,11 +67,13 @@
 figure {
   display: table;
   align-self: center;
+  margin: 0;
+  max-width: min(100%, 30em);
 }
 
 figure img {
   display: table-cell;
-  max-width: min(100%, 35em);
+  width: 100%;
 }
 
 figure figcaption {
