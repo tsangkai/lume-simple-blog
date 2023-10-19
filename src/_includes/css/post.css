@@ -49,6 +49,11 @@
   display: inline-block;
 }
 
+.post-article {
+  display: flex;
+  flex-direction: column;
+}
+
 .post-article a {  
   color: var(--color-text);
   font: var(--font-body);
@@ -60,11 +65,19 @@
 }
 
 figure {
-  margin: 0px;
+  display: table;
+  align-self: center;
+}
+
+figure img {
+  display: table-cell;
   max-width: min(100%, 35em);
 }
 
-figcaption {
+figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  align-self: left;
   font: var(--font-small);
   color: var(--color-dim);
 }
