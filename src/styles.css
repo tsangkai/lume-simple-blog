@@ -42,10 +42,6 @@ main {
     margin-top: 0;
   }
 
-  hr{
-    margin: var(--row-gap-small);
-  }
-
   p {
     font: var(--font-body);
   }

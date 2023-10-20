@@ -64,19 +64,29 @@
   font: var(--font-body);
 }
 
-figure {
+.post-article hr {  
+  margin: 1em 0;
+}
+
+.post-article p {  
+  margin: 0.5em 0;
+}
+
+.post-article figure {
   display: table;
   align-self: center;
   margin: 0;
   max-width: min(100%, 30em);
+
+  margin: 0.5em 0;
 }
 
-figure img {
+.post-article figure img {
   display: table-cell;
   width: 100%;
 }
 
-figure figcaption {
+.post-article figure figcaption {
   display: table-caption;
   caption-side: bottom;
   align-self: left;
