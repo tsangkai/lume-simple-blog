@@ -14,6 +14,7 @@ import readingTime from "https://raw.githubusercontent.com/lumeland/experimental
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.5.0/toc.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.5.0/image.ts";
 import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.5.0/footnotes.ts";
+import katex from "lume/plugins/katex.ts";
 
 import type { Page, Site } from "lume/core.ts";
 
@@ -41,6 +42,7 @@ export default function (options: Options = {}) {
       .use(terser())
       .use(sitemap())
       .use(vento())
+      .use(katex())
       .use(feed({
         output: ["/feed.xml", "/feed.json"],
         query: "type=post",

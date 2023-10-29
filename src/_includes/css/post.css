@@ -106,7 +106,18 @@
     gap: .3em;
 
     font: var(--font-small);
-    color: var(--color-dim);
+    color: var(--color-text);
   }  
 }
 
+a.footnote-ref {
+  font: var(--font-small);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.katex {
+  font-size: clamp(1.2rem, 1vw, 1.3rem);
+  line-height: 1.7;
+  color: var(--color-text);  
+}
