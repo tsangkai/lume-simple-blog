@@ -1,16 +1,10 @@
-.post-header {
-  margin-bottom: var(--row-gap-small); /* */
-  display: grid;
+.post > .post-header {
+  margin-bottom: var(--row-gap-small);
+  display: grid; 
   gap: 1.5rem;
 }
 
-.post-title {
-  font: var(--font-display);
-  letter-spacing: var(--font-display-spacing);
-  margin: 0;
-}
-
-.post-header-img {
+.post > .post-header > .post-header-img {
   text-align: center;
 
   img {
@@ -31,7 +25,7 @@
   }
 }
 
-.bar {
+.post-details > .bar {
   flex: 1;
   height: 1px;
   margin: 0;
@@ -45,34 +39,35 @@
   align-items: center;
 }
 
-.post-link {
-  display: inline-block;
-}
 
-.post-article {
+.post-body {
   display: flex;
   flex-direction: column;
 }
 
-.post-article a {  
+.post-body > a {  
   color: var(--color-text);
   font: var(--font-body);
 }
 
-.post-article a:hover {
+.post-body > a:hover {
   color: var(--color-primary);
   font: var(--font-body);
 }
 
-.post-article hr {  
+.post-body > hr {  
   margin: 1em 0;
 }
 
-.post-article p {  
-  margin: 0.5em 0;
+.post-body > h1, h2 {  
+  margin: 1rem 0;
 }
 
-.post-article figure {
+.post-body > p {  
+  margin: 0.5rem 0;
+}
+
+.post-body > figure {
   display: table;
   align-self: center;
   margin: 0;
@@ -81,12 +76,12 @@
   margin: 0.5em 0;
 }
 
-.post-article figure img {
+.post-body > figure > img {
   display: table-cell;
   width: 100%;
 }
 
-.post-article figure figcaption {
+.post-body > figure > figcaption {
   display: table-caption;
   caption-side: bottom;
   align-self: left;
@@ -94,7 +89,7 @@
   color: var(--color-dim);
 }
 
-.footnote {
+.post-body > .footnote {
   margin-top: var(--row-gap-small);
 
   & ul {
@@ -110,7 +105,7 @@
   }  
 }
 
-a.footnote-ref {
+.post-body > a.footnote-ref {
   font: var(--font-small);
   color: var(--color-text);
   text-decoration: none;

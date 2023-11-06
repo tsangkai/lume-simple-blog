@@ -5,23 +5,10 @@ export default function* ({ search, i18n }) {
   for (const tag of search.values("tags")) {
     yield {
       url: `/tag/${tag}/`,
-      title: `${i18n.search.by_tag}  “${tag}”`,
+      title: `${i18n.search.by_tag}`,
       type: "tag",
       search_query: `type=post '${tag}'`,
       tag,
     };
   }
-
-  // Generate a page for each author
-  /*
-  for (const author of search.values("author")) {
-    yield {
-      url: `/author/${author}/`,
-      title: `${i18n.search.by_author} ${author}`,
-      type: "author",
-      search_query: `type=post author='${author}'`,
-      author,
-    };
-  }
-  */
 }

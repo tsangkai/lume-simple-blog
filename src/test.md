@@ -8,6 +8,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus laoreet
 
 <!--more-->
 
+# Quote
+
+> fff
+> ggg
+
 # Footnote
 
 Here is a simple footnote[^1]. With some additional text after it.

@@ -1,81 +1,28 @@
 ---
 layout: layouts/base.vto
-bodyClass: body-post
 ---
-<article class="post" data-pagefind-body data-title="{{ title }}" data-pagefind-index-attrs="data-title">
+<article class="post">
   <header class="post-header">
-
-    <h1 class="post-title">{{ title }}</h1>
-    
-    <div class="post-header-img">
-      <img class="book-img" src="{{ it.img }}">
-    </div>
-
-    {{ include "templates/post-details.vto" }}
+    <h1>
+      {{ it.title }}
+    </h1>
   </header>
 
-  {{ if toc.length > 1 || (toc[0] && toc[0].children.length) }}
-  <nav class="toc">
-    <h2>Table of contents</h2>
-    <ol>
-      {{ for item of toc }}
-      <li>
-        <a href="#{{ item.slug }}">{{ item.text }}</a>
-
-        {{ if item.children.length }}
-        <ul>
-          {{ for child of item.children }}
-          <li>
-            <a href="#{{ child.slug }}">{{ child.text }}</a>
-          </li>
-          {{ /for }}
-        </ul>
-        {{ /if }}
-      </li>
-      {{ /for }}
-    </ol>
-  </nav>
-  {{ /if }}
-
-  <div class="post-body post-article">
+  <div class="post-body">
     {{ content }}
-  </div>
 
-  {{- if footnotes.length }}
-  <div class="post-body footnote">
-    <h3>Footnotes</h3>
-    <ul>
-      {{ for note of footnotes }}
-      <li id={{ note.label }}>
-        {{- note.label -}}. {{note.content |> replace('<p>', '') |> replace('</p>', '') }}
-      </li>
-      {{ /for }}
-    </ul>  
-  </div>
-  {{ /if }}
+    {{- if footnotes.length }}
+    <div class="footnote">
+      <h2>Footnotes</h2>
+      <ul>
+        {{ for note of footnotes }}
+        <li id={{ note.label }}>
+          {{- note.label -}}. {{note.content |> replace('<p>', '') |> replace('</p>', '') }}
+        </li>
+        {{ /for }}
+      </ul>  
+    </div>
+    {{ /if }}
 
+  </div>
 </article>
-
-<nav class="pagination">
-  <ul>
-    {{- set previousPost = search.previousPage(url, "type=post") }}
-    {{- if previousPost }}
-    <li class="pagination-prev">
-      <a href="{{ previousPost.data.url }}" rel="prev">
-        <span>{{ i18n.nav.previous_post }}</span>
-        <strong>{{ previousPost.data.title }}</strong>
-      </a>
-    </li>
-    {{ /if }}
-
-    {{- set nextPost = search.nextPage(url, "type=post") }}
-    {{- if nextPost }}
-    <li class="pagination-next">
-      <a href="{{ nextPost.data.url }}" rel="next">
-        <span>{{ i18n.nav.next_post }}</span>
-        <strong>{{ nextPost.data.title }}</strong>
-      </a>
-    </li>
-    {{ /if }}
-  </ul>
-</nav>
