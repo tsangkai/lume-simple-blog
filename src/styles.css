@@ -20,8 +20,8 @@
 }
 
 body {
-  font-size: 1.125rem;
   font: var(--font-body);
+  font-size: 1.125rem;
 
   letter-spacing: var(--font-body-spacing);
 }

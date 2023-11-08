@@ -85,8 +85,15 @@
   display: table-caption;
   caption-side: bottom;
   align-self: left;
+
   font: var(--font-small);
   color: var(--color-dim);
+}
+
+.post-body > blockquote {
+  border-left: 5px solid var(--color-line);
+  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .post-body > .footnote {
