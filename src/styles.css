@@ -21,7 +21,6 @@
 
 body {
   font: var(--font-body);
-  font-size: 1.125rem;
 
   letter-spacing: var(--font-body-spacing);
 }
@@ -128,4 +127,5 @@ h1 {
   aspect-ratio: 2 / 3;
   border-radius: 0.5em;
   background-color: var(--color-background);
+  border: 1px solid var(--color-line);
 }
