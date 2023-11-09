@@ -22,6 +22,7 @@
 .post-list > .post-card > .post-card-summary {
   display: grid;
   grid-auto-columns: 1fr;
+  gap: 0.5rem;
 }
 
 .post-list > .post-card > .post-card-summary > .post-title {

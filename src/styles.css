@@ -35,7 +35,7 @@ body {
 */
 
 .container {
-  max-width: min(100% - 20vw, 50rem); /* */
+  max-width: min(100% - 25vw, 50rem); /* */
   margin: 0 auto;
   padding-top: var(--row-gap-medium);
   padding-bottom: var(--row-gap-medium);
