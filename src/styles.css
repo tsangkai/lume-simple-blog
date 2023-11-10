@@ -21,8 +21,6 @@
 
 body {
   font: var(--font-body);
-
-  letter-spacing: var(--font-body-spacing);
 }
 
 /* Page layout */
