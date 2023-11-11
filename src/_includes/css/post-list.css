@@ -14,18 +14,24 @@
   }
 }
 
+
 .post-list > .post-card > .post-card-img {
   text-align: center;
 }
 
+.post-list > .post-card-no-img {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
 
-.post-list > .post-card > .post-card-summary {
+.post-card-summary {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.post-list > .post-card > .post-card-summary > .post-title {
+.post-card-summary > .post-title {
   font: var(--font-title);
   letter-spacing: var(--font-title-spacing);
   margin: 0;
