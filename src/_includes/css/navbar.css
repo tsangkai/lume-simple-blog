@@ -1,6 +1,6 @@
 .navbar-home {
   text-decoration: none;
-  font: var(--font-title);
+  font: var(--font-display);
 }
 
 .navbar-link {
@@ -9,7 +9,7 @@
   column-gap: 1.5rem;
   align-items: center;
 
-  font: var(--font-ui-bold);
+  font: var(--font-subtitle);
 }
 
 .navbar-link > a {
