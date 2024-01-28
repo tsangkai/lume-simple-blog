@@ -28,6 +28,7 @@
     --font-body-bold: bold var(--font-body);
     --font-ui: 1rem/1.4 var(--font-family-ui);
     --font-small: 1rem/1.4 var(--font-family-ui);
+    --font-xsmall: 0.9rem/1.4 var(--font-family-ui);
 
     /* Space */
     --row-gap-xsmall: 0.5rem;
