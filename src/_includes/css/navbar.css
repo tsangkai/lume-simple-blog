@@ -9,7 +9,7 @@
   column-gap: var(--column-gap-small); /*1.5rem;*/
   align-items: center;
 
-  font: var(--font-subtitle);
+  font: bold var(--font-body);
 }
 
 .navbar-link > a {

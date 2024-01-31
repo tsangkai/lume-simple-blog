@@ -19,16 +19,15 @@
     --font-family-ui: -apple-system, system-ui, sans-serif;
   
     --font-code: 1rem/1.5 var(--font-family-code);
-    --font-display: bold clamp(1.8rem, 10vw, 2.3rem)/1.1 var(--font-family-ui);
+    --font-display: bold clamp(2.1rem, 12vw, 2.3rem)/1.1 var(--font-family-ui);
     --font-display-spacing: -0.02em;
-    --font-title: bold clamp(1.5rem, 8vw, 2rem)/1.2 var(--font-family-ui);
+    --font-title: bold clamp(1.6rem, 8vw, 1.8rem)/1.2 var(--font-family-ui);
     --font-title-spacing: -0.015em;
-    --font-subtitle: bold clamp(1.1rem, 5vw, 1.2rem)/1.4 var(--font-family-ui);
     --font-body: clamp(1rem, 1vw, 1.1rem)/1.7 var(--font-family-ui);
     --font-body-bold: bold var(--font-body);
     --font-ui: 1rem/1.4 var(--font-family-ui);
     --font-small: 1rem/1.4 var(--font-family-ui);
-    --font-xsmall: 0.9rem/1.4 var(--font-family-ui);
+    --font-xsmall: 0.8rem/1.4 var(--font-family-ui);
 
     /* Space */
     --row-gap-xsmall: 0.5rem;
