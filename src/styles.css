@@ -62,7 +62,7 @@ body {
 .footer > p {
   margin: 0;
   letter-spacing: normal;
-  font: var(--font-small);
+  font: var(--font-xsmall);
   color: var(--color-dim);
 }
 

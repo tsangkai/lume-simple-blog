@@ -1,6 +1,6 @@
 .post-list {
   display: grid;
-  gap: 5rem;
+  gap: var(--row-gap-large);
   place-content: center;
 }
 
