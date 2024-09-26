@@ -10,7 +10,6 @@ import pagefind, { Options as PagefindOptions } from "lume/plugins/pagefind.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import feed from "lume/plugins/feed.ts";
 import vento from "lume/plugins/vento.ts";
-import readingTime from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/reading_time/mod.ts";
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.5.0/toc.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.5.0/image.ts";
 import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.5.0/footnotes.ts";
@@ -32,7 +31,6 @@ export default function (options: Options = {}) {
       .use(toc())
       .use(footnotes())
       .use(prism(options.prism))
-      .use(readingTime())
       .use(date(options.date))
       .use(metas())
       .use(image())
